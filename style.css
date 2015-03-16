@@ -30,3 +30,29 @@ nav li {
     display: inline;
     padding: 8px;
 }
+
+#timetable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#timetable th, td {
+   border: 1px solid green;
+   padding: 5px;
+}
+
+#timetable caption {
+    padding: 5px;
+    font-weight: bold;
+    color: green;
+}
+
+#timetable th {
+    background-color: green;
+    color: white;
+}
+
+#timetable td {
+    background-color: white;
+    color: green;
+}
