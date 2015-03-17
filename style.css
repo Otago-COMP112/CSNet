@@ -1,24 +1,28 @@
 /*Tin Htoo Aung*/
 body{
     background-color: #caf0f7;
+    color: black;
     font-size: 16px;
-    font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 70%;
     margin: auto;
 }
 
 h1{
     width: 50%;
-    background-color: lightcyan;
-    border: 15px dotted darkblue;
+    background-color: #66CCFF;
+    color: white;
+    border: 15px dotted blue;
     margin: 50px auto;
     text-align: center;
     padding: 8px;
 }
 
 h2 {
-    background-color: lightyellow;
+    background-color: green;
+    color: white;
     padding: 8px;
+    text-align: center;
 }
 
 p {
@@ -37,13 +41,14 @@ nav li {
 }
 
 #timetable th, td {
-   border: 1px solid green;
+   border: 1px solid white;
    padding: 5px;
 }
 
 #timetable caption {
     padding: 5px;
     font-weight: bold;
+    background-color: white;
     color: green;
 }
 
