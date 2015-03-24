@@ -31,8 +31,12 @@ p {
 
 nav li {
     list-style: none;
-    display: inline;
+    float: left;
     padding: 8px;
+}
+
+.clear{
+    clear: left;
 }
 
 #timetable {
